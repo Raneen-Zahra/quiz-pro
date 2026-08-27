@@ -3,8 +3,8 @@
 
 import { useState, useEffect, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
-import { getQuizByDifficulty } from './Data/Data';
-import { ExamResult } from './Components/ExamInterface';
+import { getQuizByDifficulty } from '../Data/Data';
+import { ExamResult } from '../lib/type';
 
 interface ExamInterfaceProps {
     difficulty: 'beginner' | 'intermediate' | 'advanced';
