@@ -2,7 +2,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { ExamResult } from '@/lib/types';
+import { ExamResult } from '../lib/type';
 
 export default function ProfilePage() {
     const [profileName, setProfileName] = useState('Your Name');
